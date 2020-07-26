@@ -2,9 +2,7 @@ package com.skill.dto;
 
 import java.util.List;
 
-import javax.persistence.Id;
-
-import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.annotation.Id;
 
 import lombok.Data;
 

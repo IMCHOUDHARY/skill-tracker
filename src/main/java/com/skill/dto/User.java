@@ -3,8 +3,7 @@ package com.skill.dto;
 
 import java.util.List;
 
-import javax.persistence.Id;
-
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
@@ -13,7 +12,7 @@ import lombok.Data;
 @Data
 public class User {
 	@Id
-	private Integer userId;
+	private String userId;
 	private String firstName;
 	private String lastName;
 	private String email;
