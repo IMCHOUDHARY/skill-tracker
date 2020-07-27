@@ -15,7 +15,7 @@ public interface UserService {
 	public List<User> getByRange(int start, int end);
 	public long getCountByExpertSkill();
 	public long getCountByIntermediateSkill();
-	public long getCountByBeginnerSkill(String category);
+	public long getCountByBeginnerSkill();
 	public long getCountCategories();
 	public long getCountTeams();
 	
